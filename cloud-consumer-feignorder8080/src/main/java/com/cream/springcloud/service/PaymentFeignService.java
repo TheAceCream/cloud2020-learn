@@ -2,7 +2,6 @@ package com.cream.springcloud.service;
 
 import com.cream.springcloud.entities.CommonResult;
 import com.cream.springcloud.entities.Payment;
-import feign.Param;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
