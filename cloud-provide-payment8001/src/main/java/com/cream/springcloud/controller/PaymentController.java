@@ -86,5 +86,10 @@ public class PaymentController {
         return serverPort;
     }
 
+    @GetMapping(value = "/zipkin")
+    public String paymentZipkin(){
+        return "哈哈，这里是paymentZipkin服务的返回值~^_^";
+    }
+
 
 }
